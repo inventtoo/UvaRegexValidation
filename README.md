@@ -94,14 +94,14 @@
 ```php
 <?php
 
-var_dump(urv::is_url('http://inventtoo.com'));
-//int(1) 
+var_dump(uva::is_url('http://inventtoo.com'));
+//Output: int(1) 
 
-var_dump(urv::is_alphabetic('123456'));
-//int(0) 
+var_dump(uva::is_alphabetic('123456'));
+//Output: int(0) 
 
-var_dump(urv::is_url('test'));
-//int(0) 
+var_dump(uva::is_url('test'));
+//Output: int(0) 
 ```
 
 ##License
