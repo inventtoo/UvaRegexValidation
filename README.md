@@ -28,13 +28,13 @@
 |\/         |slash / (escaped slash)
 |[xyz]      |matches a single character contained within the brackets, i.e.: x OR y OR z
 |[^xyz]     |any character not contained, i.e.: a NOR b NOR c ...
-|\d         |equivalance of: [0-9] any number 
-|\D         |equivalance of: [^0-9] not any number  
-|\w         |equivalance of: [A-Za-z0-9_] any letter,number,underscore, dot or hyphen        
-|\W         |equivalance of: [^A-Za-z0-9_] non-word characters 
-|\a         |equivalance of: [A-Za-z] alphabetic characters
-|\l         |equivalance of: [a-z] lower-case letters
-|\u         |equivalance of: [A-Z] upper-case letters
+|\d         |equivalence of: [0-9] any number 
+|\D         |equivalence of: [^0-9] not any number  
+|\w         |equivalence of: [A-Za-z0-9_] any letter,number,underscore, dot or hyphen        
+|\W         |equivalence of: [^A-Za-z0-9_] non-word characters 
+|\a         |equivalence of: [A-Za-z] alphabetic characters
+|\l         |equivalence of: [a-z] lower-case letters
+|\u         |equivalence of: [A-Z] upper-case letters
 
 [1]: http://en.wikipedia.org/wiki/Regular_expression "Wikipedia"
 [2]: http://www.php.net/manual/en/regexp.reference.recursive.php "PHP Manual"
