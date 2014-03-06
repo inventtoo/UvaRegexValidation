@@ -41,7 +41,7 @@
 ****
 **/
 
-class urv{
+class uva{
 
 	// ~~~ Validate if a string is alphabetic
 	public static function is_alphabetic($string) {
