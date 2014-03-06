@@ -15,7 +15,7 @@ This project have a MIT License, so you can modify it, redistribute it, print it
 |()         |group, output reference as (?1)(?2)...
 |(?<name>)  |name group, output reference as (?P>name) or (?&name) [Ref.2]
 |?:         |(?: .... ) don't capture group as output  [Ref.3]
-|\|         |or
+|````|````        |or
 |\          |escaped
 |+          |one or more repetitions (at least 1 repetition)
 |*          |zero or more repetitions (optional with multiple repetitions)
@@ -27,7 +27,7 @@ This project have a MIT License, so you can modify it, redistribute it, print it
 |A-Z        |A to Z letters
 |0-9        |0 to 9 numbers
 |.          |any single character
-|\.         |point
+|\\.         |point
 |\/         |slash /
 |[xyz]      |matches a single character contained within the brackets, i.e.: x OR y OR z
 |[^xyz]     |any character not contained, i.e.: a OR b OR c ...
