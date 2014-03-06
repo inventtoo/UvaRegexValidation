@@ -3,9 +3,6 @@
 ## What is this?
 ![UvaRegexValidation](https://raw.github.com/inventtoo/UvaRegexValidation/master/design/UvaRegexValidation_mini.png "Logo Uva Regex Validation") *Uva Regex Validation* is a class of static functions to validate strings through regular expressions.
 
-##License
-This project have a MIT License, so you can modify it, redistribute it, print it, burn it, or whatever you want.
-
 ##Regular Expression Rules (RegEx Rules) 
 |[RegEx][1] |Description                                                  |
 |:---------:|-------------------------------------------------------------|
@@ -68,5 +65,46 @@ This project have a MIT License, so you can modify it, redistribute it, print it
 [13]: http://mx1.php.net/manual/en/function.is-scalar.php
 
 ###Class Functions
+* **is_alphabetic** - validate if a string is alphabetic
+* **is_alphanumeric** - validate if a string is alphanumeric
+* **is_number_string** - validate if a string is numeric
+* **is_email** - validate if a string is an e-mail
+* **is_hexadecimal_color** - validate if a string is hexadecimal color value
+* **is_url** - validate if a string is an URL
+* **is_url_image** - validate if a string is an image URL
+* **is_url_friendly** - validate if a string is a friendly URL without domain 
+* **is_ip** - validate if a string is an IP value
+* **is_strlen_min(s,l)** - validate the minimum length of a string (string,lenght) 
+* **is_strlen_max(s,l)** - validate the maximal length of a string (string,lenght) 
+* **is_strlen_between(s,m,M)** - validate if the string has between min and max characters (string,min,max)
+* **is_username(s,m,M)** - validate if a string is a valid username (letters [Upper/Lower-case], point [.], underscore [_]) (string,min,max)
+* **is_password(s,m,M)** - validate if a string is a valid password (string,min,max)
+* **is_password_secure(s,m,M)** - validate if a string is a valid secure password with special characters (string,min,max)
+* **is_personal_name** -validate if a string is a full personal name
+* **is_html_tag** - validate if a string is a html tag
+* **is_datetime** - validate if a string is a datetime string (yyyy-mm-dd hh:mm:ss)
+* **is_time** - validate if a string is a time string (hh:mm:ss)
+* **is_date** - validate if a string is a date string ISO-Standard(yyyy-mm-dd)
+* **is_date_ddmmyyyy** - validate if a string is a date string (dd-mm-yyyy)
+* **is_date_mmddyyyy** - validate if a string is a date string (mm-dd-yyyy)
+* **is_date_yyyymmdd** - validate if a string is a date string (yyyy-mm-dd)
+
+##Examples
+
+```php
+<?php
+
+var_dump(urv::is_url('http://inventtoo.com'));
+//int(1) 
+
+var_dump(urv::is_alphabetic('123456'));
+//int(0) 
+
+var_dump(urv::is_url('test'));
+//int(0) 
+```
+
+##License
+This project have a MIT License, so you can modify it, redistribute it, print it, burn it, or whatever you want.
 
 
