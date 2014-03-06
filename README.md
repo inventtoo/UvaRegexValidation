@@ -45,4 +45,28 @@ This project have a MIT License, so you can modify it, redistribute it, print it
 [4]: http://net.tutsplus.com/tutorials/other/8-regular-expressions-you-should-know/ "Tutsplus.com"
 	
 	
-#List of functions
+##List of functions
+
+###PHP Functions
+* **is_​array** [\[Manual\]][5]
+* **is_​string** [\[Manual\]][6]
+* **is_​object** [\[Manual\]][7]
+* **is_​bool** - ex: true, false [\[Manual\]][8]
+* **is_​float (is_​double, is_​real)**- ex: 23.5, 1e7 [\[Manual\]][9]
+* **is_​int (is_​integer, is_​long)** - ex: 23, 86 [\[Manual\]][10]
+* **is_​null** - ex: null, NULL [\[Manual\]][11]
+* **is_​numeric** - ex:  "42", 1337, 0x539, 02471, 0b10100111001, 1337e0, 9.1 [\[Manual\]][12]
+* **is_​scalar** - ex: integer||float||string||boolean [\[Manual\]][13]
+[5]: http://mx1.php.net/manual/en/function.is-array.php
+[6]: http://mx1.php.net/manual/en/function.is-string.php
+[7]: http://mx1.php.net/manual/en/function.is-object.php
+[8]: http://mx1.php.net/manual/en/function.is-bool.php
+[9]: http://mx1.php.net/manual/en/function.is-float.php
+[10]: http://mx1.php.net/manual/en/function.is-int.php
+[11]: http://mx1.php.net/manual/en/function.is-null.php
+[12]: http://mx1.php.net/manual/en/function.is-numeric.php
+[13]: http://mx1.php.net/manual/en/function.is-scalar.php
+
+###Class Functions
+
+
