@@ -3,9 +3,9 @@
 ## What is this?
 ![UvaRegexValidation](https://raw.github.com/inventtoo/UvaRegexValidation/master/design/UvaRegexValidation_mini.png "Logo Uva Regex Validation") *Uva Regex Validation* is a class of static functions to validate strings through regular expressions.
 
-##Regular Expression Rules (RegEx Rules) 
-|[RegEx][1] |Description                                                  |
-|:---------:|-------------------------------------------------------------|
+## Regular Expression Rules (RegEx Rules) 
+| [RegEx][1] | Description                                                  |
+| :---------: | ------------------------------------------------------------- |
 |/ /        |start delimiter - end delimiter
 |^          |star with
 |$          |end with
